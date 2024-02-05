@@ -1,0 +1,11 @@
+gui:
+  icon: my-app-icon.png
+logger:
+  handlers:
+    stream:
+      level: 0
+      bubble: false
+    timed_rotating_file:
+      level: 0
+      bubble: true
+      date_format: '%Y-%m-%d'
